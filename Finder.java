@@ -10,13 +10,13 @@ public class Finder extends JFrame implements ActionListener {
     JButton b;
 
     Finder(){
-        super("IP Finder");
-        l = new JLabel("Enter URL:");
+        super("Localizador IP");
+        l = new JLabel("Insira a URL:");
         l.setBounds(50,70,150,20);;
         tf=new JTextField();
         tf.setBounds(50,100,200,20);
 
-        b=new JButton("Find IP");  
+        b=new JButton("Buscar IP");  
         b.setBounds(50,150,80,30);  
         b.addActionListener(this);  
         add(l);  
